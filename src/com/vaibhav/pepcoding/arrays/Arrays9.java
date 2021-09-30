@@ -10,10 +10,8 @@ public class Arrays9 {
         char[] arr;
         arr = num.toCharArray();
         //for n elements we have 2**n subsets
-        displaySubets(arr);
-    }
-
-    private static void displaySubets(char[] arr) {
 
     }
+
+
 }
