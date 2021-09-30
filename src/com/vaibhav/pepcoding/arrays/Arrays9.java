@@ -14,8 +14,6 @@ public class Arrays9 {
     }
 
     private static void displaySubets(char[] arr) {
-        for(int i=0;i<arr.length;i++){
 
-        }
     }
 }
