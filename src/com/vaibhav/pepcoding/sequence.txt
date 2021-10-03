@@ -1,0 +1,20 @@
+# NUMBER SYSTEM #
+1.Any base to Decimal
+2.Any decimal to Base
+3.Any base to any Base
+4.Any base Addition
+5.Any base Subtraction
+5.Any base Multiplication
+# ARRAYS #
+1.Span of an Array
+2.Bar chart
+3.Sum of two Arrays
+4.Diffrence of two Arrays
+5.Reverse of two arrays
+6.Rotate an Array
+7.Inverse of an Array
+8.Subarrays of an Array
+9.Subsets of an Array
+10.Binary search Algorithm
+11.Ceil and Floor
+12.First and Last Index

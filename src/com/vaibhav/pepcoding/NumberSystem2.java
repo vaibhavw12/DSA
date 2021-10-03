@@ -15,9 +15,9 @@ public class NumberSystem2 {
         int result = 0 , p=0;
         while(number>0){
             int d = number % 10;
-            result = (int) (result + d * Math.pow(base,p));
-            p = p*10;
             number = number / 10 ;
+            result = (int) (result + d * Math.pow(base,p));
+            p++;
         }
         return result;
 
