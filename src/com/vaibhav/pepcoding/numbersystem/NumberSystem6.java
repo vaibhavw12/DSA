@@ -1,4 +1,4 @@
-package com.vaibhav.pepcoding;
+package com.vaibhav.pepcoding.numbersystem;
 
 import java.util.Scanner;
 
