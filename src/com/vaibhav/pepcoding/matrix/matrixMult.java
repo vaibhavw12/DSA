@@ -41,7 +41,7 @@ public class matrixMult {
         }
     }
 
-    private static void createMatrix(int[][] mat, int r, int c) {
+    public static void createMatrix(int[][] mat, int r, int c) {
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 mat[i][j]=in.nextInt();
