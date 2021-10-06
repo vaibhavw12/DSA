@@ -44,6 +44,7 @@ public class SpiralTraversal {
                 System.out.println(mat[i][j]);
                 count++;
             }
+            // for next box
             minr++;
         }
     }
