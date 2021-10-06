@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //rotation of an array clockwise for k>0 and anticlockwise for k<0
-public class Arrays6 {
+public class ArrayRotation {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
@@ -15,9 +15,10 @@ public class Arrays6 {
         System.out.println("rotate array by : ");
         int k = in.nextInt();
         rotation(arr,k % arr.length);
+        System.out.println(Arrays.toString(arr));
     }
 
-    private static void rotation(int[] arr, int k) {
+    public static void rotation(int[] arr, int k) {
 //        if(k>0){
 //            Arrays6.reverse(arr,arr.length-k, arr.length-1);
 //            Arrays6.reverse(arr,0,arr.length-k-1);
@@ -36,11 +37,9 @@ public class Arrays6 {
         }else if(k<0){
             k=k+ arr.length;
         }
-        Arrays6.reverse(arr,arr.length-k, arr.length-1);
-        Arrays6.reverse(arr,0,arr.length-k-1);
-        Arrays6.reverse(arr,0,arr.length-1);
-        System.out.println(Arrays.toString(arr));
-
+        ArrayRotation.reverse(arr,arr.length-k, arr.length-1);
+        ArrayRotation.reverse(arr,0,arr.length-k-1);
+        ArrayRotation.reverse(arr,0,arr.length-1);
     }
     private static void reverse(int[] arr, int start ,int end) {
         while(start<end){
