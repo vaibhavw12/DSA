@@ -10,7 +10,7 @@ public class Sreachin2DSortedMatrix {
         System.out.println("enter rows and columns for matrix :");
         int r = in.nextInt();
         int c = in.nextInt();                                                 //  1   2   3   4
-        int[][] mat = new int[r][c];                                          //  5   6   7   8     saddle point -> 13
+        int[][] mat = new int[r][c];                                          //  5   6   7   8
         System.out.println("enter elements row wise :");                      //  9   10  11  12
         matrixMult.createMatrix(mat,r,c);                                     //  13  14  15  16
         System.out.println("enter number to searched :");
