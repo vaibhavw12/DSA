@@ -7,6 +7,7 @@ public class SubSequence {
         String str = new String("abc");
         ArrayList<String> arr = getSubSequene(str);
         System.out.println(arr);
+        display(str);  // without using recursion
     }
     // recursive logic
     // expect ->  [---,--c,-b-,-bc,a--,a-c,ab-,abc
@@ -28,5 +29,22 @@ public class SubSequence {
             result.add(ch+s);
         }
         return result;
+    }
+    private static void display(String str){
+        int l = (int) Math.pow(2,str.length());  // total number of subsequence
+        for(int i=0;i<l;i++){
+            String s ="";
+            int temp = i;
+            for(int j=str.length()-1;j>=0;j--){
+                int d = temp % 2;
+                temp = temp / 2;
+                if(d==0){
+                    s = "_"+s;
+                }else {
+                    s = str.charAt(j)+s;
+                }
+            }
+            System.out.println(s);
+        }
     }
 }
