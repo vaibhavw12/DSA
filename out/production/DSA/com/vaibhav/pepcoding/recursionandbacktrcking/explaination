@@ -1,0 +1,15 @@
+ "recursion can be solve using 2 methods"
+ # recursion can be easily visualized by ->> Euler's tree
+                                         ->> recursion tree
+                                         ->> calls in the stack
+   // also have to check the value pass in variable as for every call new variables are created
+   // return statement + base case  
+1. Faith Expectation method
+  ->> we meet expectation from establishing faith
+  // mostly we do work in postorder
+2. Level and its possible options
+  ->> print the result in base case
+  // all examples of recursion_onthewapup
+
+
+  
