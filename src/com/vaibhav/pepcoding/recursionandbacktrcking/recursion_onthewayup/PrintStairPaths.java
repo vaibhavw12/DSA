@@ -22,8 +22,12 @@ public class PrintStairPaths {
         if(stairs < 0){
             return;
         }
-        printStairPaths(stairs-1,path + 1);
-        printStairPaths(stairs-2,path + 2);
-        printStairPaths(stairs-3,path + 3);
+//        printStairPaths(stairs-1,path + 1);
+//        printStairPaths(stairs-2,path + 2);
+//        printStairPaths(stairs-3,path + 3);
+        // using loop will also work
+        for(int i=1;i<=3;i++){
+            printStairPaths(stairs-i,path + i);
+        }
     }
 }
