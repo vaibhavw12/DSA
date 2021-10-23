@@ -34,5 +34,4 @@ public class BubbleSort {
         arr[back] = arr[front];
         arr[front] = temp;
     }
-
 }
