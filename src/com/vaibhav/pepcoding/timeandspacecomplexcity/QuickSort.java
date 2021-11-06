@@ -20,7 +20,7 @@ public class QuickSort {
         quickSort(arr,start,pivot-1);
     }
 
-    private static int partitation(int[] arr, int start, int end) {
+    public static int partitation(int[] arr, int start, int end) {
         int pivot = end,index =start;
         while(start<end){
             if(arr[start]>arr[pivot]){
