@@ -14,7 +14,7 @@ public class Arrays1 {
         int result = span(arr);
         System.out.println(result);
     }
-    private static int span(int[] arr) {
+    public static int span(int[] arr) {
         int max = arr[0];
         int min = arr[0];
         for(int i=1;i<arr.length;i++){
