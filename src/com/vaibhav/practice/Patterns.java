@@ -1,4 +1,4 @@
-package com.vaibhav.kunal;
+package com.vaibhav.practice;
 
 import java.util.Scanner;
 
