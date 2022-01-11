@@ -87,7 +87,7 @@ public class Infix_Evaluation {
         }
     }
 
-    private static int operation(int value1, int value2, char ope) {
+    public static int operation(int value1, int value2, char ope) {
         if(ope=='+'){
             return value1+value2;
         }else if(ope=='-'){
