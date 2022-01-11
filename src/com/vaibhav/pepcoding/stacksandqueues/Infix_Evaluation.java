@@ -75,7 +75,7 @@ public class Infix_Evaluation {
         System.out.println(operands.peek());
     }
 
-    private static int precedence(char ope) {
+    public static int precedence(char ope) {
         if(ope=='+'){
             return 1;
         }else if(ope=='-'){
